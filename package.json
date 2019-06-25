@@ -1,0 +1,14 @@
+{
+    "name": "git-dep-test",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "git@github.com:arcanis/git-dep-test",
+    "author": "Maël Nison <nison.mael@gmail.com>",
+    "license": "MIT",
+    "scripts": {
+        "prepare": "touch prepared",
+        "prepack": "touch prepacked",
+        "install": "touch installed",
+        "postinstall": "touch postinstalled"
+    }
+}
